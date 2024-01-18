@@ -1,0 +1,57 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+.ticket{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px 50px 10px;
+    width: 250px;
+    height: 500px;
+
+}
+
+img{
+    width: 200px;
+    height: 300px;
+    box-shadow: 0px 0px 10px;
+    border-radius: 6px;
+    border: solid 1px violet;
+}
+
+.image{
+    height: 65%;
+ 
+}
+
+.image img{
+    transition: transform 0.5s;
+}
+
+.image:hover img{
+    transform: scale(1.1);
+}
+
+.title{
+   height:20px ; 
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   text-transform: uppercase;
+}
+
+.duration{
+    height: 18px;
+  
+}
+
+.ticket{
+    width: 350px;
+    height: 500px;
+    box-shadow: 0px 0px 10px;
+    border-radius: 6px;
+    margin-top: 100px;
+    gap: 20px;
+    background-color: rgba(38, 46, 46, 0.182);
+
+}

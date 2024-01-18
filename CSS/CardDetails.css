@@ -1,0 +1,121 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-left: 30px;
+    flex-wrap: wrap;
+    
+   
+}
+
+.background img{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    opacity: 0.9;
+
+}
+
+.movie-poster
+{
+    position: relative;
+    height: 700px;
+
+    
+    
+}
+
+.movie-poster img{
+
+    width: 400px;
+    margin-top: 100px;
+    margin-left: 20px;
+    box-shadow: 0px 0px 30px rgb(243, 238, 238);
+    border-radius: 6px;
+  
+}
+
+.movie-details{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    gap: 20px;
+    margin-top: 100px;
+    text-shadow: 10px 10px 10px;
+    padding: 40px;
+    box-shadow: 0px 0px 10px;
+    
+}
+.movie-name{
+    text-transform: capitalize;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(13, 1, 1);
+    font-size: 38px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 50px;
+   
+}
+
+.movie-rating{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(21, 1, 1);
+
+}
+
+.movie-duration{
+    font-size: 22px;
+    color: rgb(43, 7, 7);
+    font-family: 'Times New Roman', Times, serif;
+
+
+}
+
+.movie-jouner{
+    font-size: 22px;
+    color: rgb(11, 1, 1);
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+
+
+button{
+    width: 120px;
+    height: 45px;
+    color: rgb(228, 236, 236);
+    background-color: rgba(73, 139, 246, 0.364);
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.movie-poster img{
+    transition: transform 0.5s;
+}
+
+.movie-poster:hover img{
+    transform: scale(1.1);
+}
+
+.movie-details div{
+    transition: transform 0.5s;
+}
+
+.movie-details:hover div{
+    transform: scale(.9);
+}
+
+
+.movie-details button{
+    transition: transform 0.5s;
+}
+
+.movie-details:hover button{
+    transform: scale(1.1);
+}
+
+
+

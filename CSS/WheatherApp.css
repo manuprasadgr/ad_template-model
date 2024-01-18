@@ -1,0 +1,62 @@
+
+.header{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+
+input{
+    height: 30px;
+    width: 350px;
+    border-radius: 3px;
+    border: solid rgba(128, 0, 128, 0.622);
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+button{
+    height: 35px;
+    width: 35px;
+    border-radius: 3px;
+   
+  
+}
+
+.body div{
+    width: 250px;
+    height:250px;
+    display: flex;
+    flex-direction: column;
+   
+
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+   
+}
+
+.content{
+    box-shadow: 0px 0px 10px;
+    text-align: center;
+    display: flex;
+    gap: 10px;
+    
+}
+
+.location , .date ,.temperature{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    color: blueviolet;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px;
+    
+
+}
